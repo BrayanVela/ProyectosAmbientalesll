@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url('https://img.freepik.com/foto-gratis/hermoso-arbol-medio-campo-cubierto-hierba-linea-arboles-fondo_181624-29267.jpg?w=2000');
+}
+
+::-webkit-input-placeholder {
+  color: #0d0d0e;
+}
+
+:focus::-webkit-input-placeholder{
+  opacity: 0.5;
+}
+
+.form-register {
+  width: 500px;
+  background: #49c97e;
+  padding: 40px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 8px;
+  font-family: 'calibri';
+  color: rgb(14, 13, 13);
+  box-shadow: 10px 15px 50px #0d0d0e;
+}
+
+.form-register h1 {
+  font-size: 22px;
+  margin-bottom: 40px;
+}
+
+.controls {
+  width: 100%;
+  background: #49c97e;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #000714;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: rgb(10, 0, 0);
+}
+
+.form-register p {
+  height: 60px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 70px;
+}
+
+.form-register a {
+  color: rgb(19, 18, 18);
+  text-decoration: none;
+}
+
+.form-register a {
+  color: rgb(17, 17, 17);
+  text-decoration: underline;
+}
+
+.form-register .botons {
+  width: 100%;
+  background: #465ee7;
+  border: none;
+  padding: 12px;
+  color: rgb(255, 255, 255);
+  margin: 16px 0;
+  font-size: 16px;
+}
